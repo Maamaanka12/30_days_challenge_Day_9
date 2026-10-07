@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VESTIRE — Modern Male Fashion Atelier</title>
+<meta name="description" content="VESTIRE — sharp suits, street essentials and timeless menswear." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="brand" href="#home">VEST<span>IRE</span><em>Nº9</em></a>
+  <nav class="links" id="navLinks">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#clothes">Clothes</a>
+    <a href="#craft">Craft</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="home">
+  <!-- ══ HERO ══ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <h1>DRESSED<br><span class="outline">LIKE YOU</span><br>MEAN IT.</h1>
+      <p class="lede">Suits that fit like they were drafted on you. Street cuts that hold their shape. No fast-fashion noise — just cloth, cut and character.</p>
+      <div class="cta-row">
+        <a href="#clothes" class="btn solid">Shop the collection</a>
+        <a href="#about" class="btn ghost">Our story ↓</a>
+      </div>
+      <dl class="hero-meta mono">
+        <div><dt>Chest 38–48</dt><dd>True sizes</dd></div>
+        <div><dt>120s wool</dt><dd>Traceable mills</dd></div>
+        <div><dt>48h</dt><dd>Free tailoring</dd></div>
+      </dl>
+    </div>
+    <div class="hero-visual">
+      <figure class="portrait">
+        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=900&auto=format&fit=crop" alt="Man in tailored navy suit" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section class="section about" id="about">
+    <p class="eyebrow mono">01 / About the house</p>
+    <div class="about-grid">
+      <div>
+        <h2>An atelier,<br>not a store.</h2>
+        <p>VESTIRE started with one cutting table and a simple complaint: menswear either costs a fortune or falls apart. We draft our own blocks, buy cloth from two family mills, and fit every silhouette on real bodies — sizes 34 to 52.</p>
+        <ul class="pillars">
+          <li><b>Drafted, not copied</b><span>Original blocks graded by hand for shoulders that sit right.</span></li>
+          <li><b>Cloth with papers</b><span>120s wool, 14oz selvedge, brushed cotton — every roll traceable.</span></li>
+          <li><b>Worn 5 years, not 5 washes</b><span>Reinforced seams, horn buttons, free repairs for life.</span></li>
+        </ul>
+      </div>
+      <div class="about-photos">
+        <img class="ph1" src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=800&auto=format&fit=crop" alt="Tailoring atelier with fabrics" />
+        <img class="ph2" src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop" alt="Man adjusting blazer" />
+      </div>
+    </div>
+  </section>
+
+  <div class="stitch-divider" aria-hidden="true"></div>
+
+  <!-- ══ CLOTHES ══ -->
+  <section class="section shop" id="clothes">
+    <div class="shop-head">
+      <div>
+        <p class="eyebrow mono">02 / The clothes</p>
+        <h2>Pick your uniform.</h2>
+      </div>
+      <div class="filters mono" role="tablist" aria-label="Filter clothes">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="suits">Suits</button>
+        <button class="chip" data-filter="street">Street</button>
+        <button class="chip" data-filter="essentials">Essentials</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"><!-- rendered by script.js --></div>
+    <p class="mono shop-note">Sizes 34–52 · Free 48h tailoring on every suit · Free repairs for life</p>
+  </section>
+
+  <!-- ══ CRAFT (numbered = real sequence) ══ -->
+  <section class="section craft" id="craft">
+    <p class="eyebrow mono">03 / How it’s made — a real sequence</p>
+    <h2>Measure. Cut. Sew.</h2>
+    <ol class="steps">
+      <li><span class="n mono">Step 1</span><h3>Measure twice</h3><p>Chest, shoulder, sleeve and stance — 14 points taken in-store or by video call.</p></li>
+      <li><span class="n mono">Step 2</span><h3>Cut once</h3><p>Your block is drafted in chalk on the cloth. Canvassed chest, never fused.</p></li>
+      <li><span class="n mono">Step 3</span><h3>Sewn to stay</h3><p>Reinforced seams, horn buttons, hand-set collar. Pressed, fitted, finished in 48h.</p></li>
+    </ol>
+  </section>
+
+  <!-- ══ QUOTE ══ -->
+  <section class="quote">
+    <blockquote>“First suit that didn’t need ‘getting used to’. It fit on day one and still looks new a year later.”</blockquote>
+    <cite class="mono">— Yonas T., wears the Charcoal Two-Piece weekly</cite>
+  </section>
+
+  <!-- ══ CONTACT / FOOTER ══ -->
+  <footer class="footer" id="contact">
+    <div class="foot-grid">
+      <div>
+        <p class="brand">VEST<span>IRE</span></p>
+        <p class="mono small">Atelier Nº9 · Open Mon–Sat 10–20<br>Merkato Ave, Addis Ababa</p>
+      </div>
+      <form class="news" id="newsForm">
+        <label class="mono" for="email">Get the drop list — one email per month, no noise.</label>
+        <div class="news-row"><input id="email" type="email" placeholder="you@email.com" required /><button class="btn solid" type="submit">Join</button></div>
+        <p class="mono small" id="newsMsg" role="status"></p>
+      </form>
+      <nav class="mono small foot-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#clothes">Clothes</a><a href="#craft">Craft</a>
+      </nav>
+    </div>
+    <p class="mono small base">© 2026 VESTIRE</p>
+  </footer>
+</main>
+
+<div class="toast mono" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
